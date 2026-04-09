@@ -14,7 +14,7 @@ st.set_page_config(page_title="Analisis de imagen", layout="centered", initial_s
 st.title("Análisis de Imagen:🤖🏞️")
 ke = st.text_input('Ingresa tu Clave')
 os.environ['OPENAI_API_KEY'] = ke
-image = Image.open('carlos.jpg')
+image = Image.open('perrito.jpg')
 
 st.image(image,width=3000)
 
